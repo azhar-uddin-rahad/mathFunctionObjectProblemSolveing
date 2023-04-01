@@ -16,10 +16,25 @@ const result=Math.abs(a-b);
 
 //Math.round()
 //convert the number fraction to integer
-
 const fractionNum=2.12345
 const result3=Math.round(fractionNum);
-console.log(result3);
+//outPut: 2
+
+//যে ভগ্নাংশ নাম্বার দেওয়া হবে তার উপরের সংখ্যা রিটান করবে
+const result5=Math.ceil(fractionNum);
+//output: 3
+//যে ভগ্নাংশ  নাম্বার দেওয়া হবে তার নিচের সংখ্যা বা তার সমান সংখ্যা রিটান করবে
+const result6=Math.floor(fractionNum);
+//output: 2
+let c=2.0001
+const result10=Math.floor(c);
+console.log(result10);
+
+
+
+
+
+
 
 
 
