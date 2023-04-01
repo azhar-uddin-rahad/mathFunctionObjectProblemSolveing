@@ -10,7 +10,16 @@ const a =20;
 const b=30;
 
 const result=Math.abs(a-b);
-console.log(result);
+//console.log(result);
 //outpt:10
+
+
+//Math.round()
+//convert the number fraction to integer
+
+const fractionNum=2.12345
+const result3=Math.round(fractionNum);
+console.log(result3);
+
 
 
