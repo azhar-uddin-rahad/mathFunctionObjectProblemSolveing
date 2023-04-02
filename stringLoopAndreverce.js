@@ -10,7 +10,7 @@
 stringLoop(text)
  */
 
-function stringLoopReverse(str){
+/* function stringLoopReverse(str){
     let reverse=''
     for(i=str.length-1; i>=0;i--){
         let element=str[i] ;
@@ -18,7 +18,20 @@ function stringLoopReverse(str){
         console.log(reverse);
     }
     return reverse;
-}
+    stringLoopReverse(text)
+    
+} */
 
+function reverseWord(str){
+    let wordConvertArray=str.split(' ');
+    let reverse=wordConvertArray.reverse();
+    let arrayToString=reverse.join(' ');
+    console.log(arrayToString);
+
+
+
+
+}
 let text="I want to be web developer";
-stringLoopReverse(text)
+
+reverseWord(text)
